@@ -32,7 +32,7 @@ export default function displayHome() {
     weekendTime.textContent = "Saturday and Sunday: 10:00 AM - 11:00 PM";
 
     hoursContainer.append(hoursTitle, weekdayTime, weekendTime);
-    
+
     // create location container
     const locationContainer = document.createElement("div");
     locationContainer.classList.add("container");
@@ -40,8 +40,9 @@ export default function displayHome() {
     locationTitle.textContent = "Location";
     const location = document.createElement("span");
     location.textContent = "123 Gourmet Avenue, Foodville";
-    
+
     locationContainer.append(locationTitle, location);
 
+    // add containers to content div
     content.append(titleContainer, copyContainer, hoursContainer, locationContainer);
 };
