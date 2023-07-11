@@ -40,6 +40,9 @@ header {
     background: #f8c880;
     width: 100%;
     justify-content: center;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 -6px 10px 5px rgba(0, 0, 0, 0.5);
 }
 
 header button {
