@@ -8,10 +8,10 @@ Tabbed browsing functionality to switch between different pages is set up with e
 
 ## Skills Demonstrated
 
-DOM manipulation using JavaScript
-Separating HTML and JavaScript code
-Organizing code into modules with Webpack
-Implementing tabbed browsing functionality
-Styling elements using CSS
-Handling user interactions and events
+- DOM manipulation using JavaScript
+- Separating HTML and JavaScript code
+- Organizing code into modules with Webpack
+- Implementing tabbed browsing functionality
+- Styling elements using CSS
+- Handling user interactions and events
 
