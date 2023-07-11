@@ -1,6 +1,2 @@
 # ignore node modules
 node_modules
-
-#ignore dist/ except for index.html
-dist/*
-!dist/index.html
