@@ -6,7 +6,8 @@
 
 body {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     background: blanchedalmond;
 }
 
@@ -28,6 +29,23 @@ body {
     flex-direction: column;
 }
 
-.container h1, .container span {
+.container h1,
+.container span {
     align-self: center;
+}
+
+header {
+    display: flex;
+    gap: 3rem;
+    background: #f8c880;
+    width: 100%;
+    justify-content: center;
+}
+
+header button {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 1.5rem;
+    background: #f8c880;
+    border: none;
 }
