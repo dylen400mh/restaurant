@@ -27,9 +27,9 @@ export default function displayHome() {
     const hoursTitle = document.createElement("h2");
     hoursTitle.textContent = "Operating Hours";
     const weekdayTime = document.createElement("span");
-    weekdayTime.textContent = "Monday to Friday: 11:00 AM - 10:00 PM";
+    weekdayTime.textContent = "Mon to Fri: 11:00 AM - 10:00 PM";
     const weekendTime = document.createElement("span");
-    weekendTime.textContent = "Saturday and Sunday: 10:00 AM - 11:00 PM";
+    weekendTime.textContent = "Sat and Sun: 10:00 AM - 11:00 PM";
 
     hoursContainer.append(hoursTitle, weekdayTime, weekendTime);
 

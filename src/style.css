@@ -32,6 +32,7 @@ body {
 .container h1,
 .container span {
     align-self: center;
+    text-align: center;
 }
 
 header {
