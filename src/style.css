@@ -22,7 +22,7 @@ body {
 
 .container {
     border: 10px solid burlywood;
-    width: 40ch;
+    width: 30ch;
     padding: 1rem;
     border-radius: 20px;
     display: flex;
@@ -36,7 +36,7 @@ body {
 
 header {
     display: flex;
-    gap: 3rem;
+    gap: 1rem;
     background: #f8c880;
     width: 100%;
     justify-content: center;
@@ -51,4 +51,12 @@ header button {
     padding: 1.5rem;
     background: #f8c880;
     border: none;
+    cursor: pointer;
+}
+
+img {
+    align-self: center;
+    margin: 1rem;
+    border-radius: 50%;
+    border: 10px solid burlywood;
 }
